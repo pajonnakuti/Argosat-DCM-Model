@@ -21,20 +21,7 @@ The Deep Chlorophyll Maximum (DCM) is a crucial feature in the ocean, representi
 
 ## Repository Structure
 
-├── data/          # Contains raw and processed data (not included in the repo due to size)
-│   ├── argo/      # Argo float data
-│   └── satellite/ # Satellite data
-├── notebooks/     # Jupyter notebooks for data processing, model training, and analysis
-│   ├── data_preprocessing.ipynb
-│   ├── feature_engineering.ipynb
-│   ├── model_training.ipynb
-│   └── model_evaluation.ipynb
-├── scripts/       # Python scripts for specific tasks (optional)
-│   └── download_data.py
-├── outputs/       # Stores model outputs, figures, and other results
-├── README.md      # This file
-├── requirements.txt # List of required Python packages
-└── environment.yml # Conda environment file (optional)
+![image](https://github.com/user-attachments/assets/ed9cb58a-4d16-48d4-969d-1d182d1cbe4f)
 
 **Description:**
 
