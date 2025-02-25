@@ -21,31 +21,6 @@ The Deep Chlorophyll Maximum (DCM) is a crucial feature in the ocean, representi
 
 ## Repository Structure
 
-Markdown
-
-# Estimate Deep Chlorophyll Maxima from D26 Isotherm using Machine Learning
-
-This repository contains code and resources for estimating the Deep Chlorophyll Maxima (DCM) depth using the D26 isotherm as a proxy, and leveraging machine learning with Argo float and satellite data.
-
-## Project Overview
-
-The Deep Chlorophyll Maximum (DCM) is a crucial feature in the ocean, representing a layer of concentrated phytoplankton.  Accurate DCM depth estimation is vital for understanding marine primary productivity and carbon cycling. This project aims to improve DCM depth estimation by combining the relationship between the D26 isotherm and DCM depth with machine learning, incorporating readily available Argo float and satellite data.
-
-## Data Sources
-
-*   **Argo Float Data:** Temperature, salinity, pressure, and chlorophyll profiles.
-*   **Satellite Data:** Sea Surface Temperature (SST), Chlorophyll-a concentration, Sea Level Anomaly (SLA), and potentially Mixed Layer Depth (MLD).
-
-## Methodology
-
-1.  **Data Acquisition and Preprocessing:** Downloading, cleaning, and merging Argo and satellite data.
-2.  **Feature Engineering:** Creating relevant features from the combined dataset.
-3.  **Model Selection and Training:** Choosing and training a suitable machine learning model (e.g., regression models, neural networks).
-4.  **Model Evaluation and Validation:** Assessing model performance using appropriate metrics.
-5.  **DCM Depth Estimation:** Applying the trained model to predict DCM depth.
-
-## Repository Structure
-
 ├── data/          # Contains raw and processed data (not included in the repo due to size)
 │   ├── argo/      # Argo float data
 │   └── satellite/ # Satellite data
