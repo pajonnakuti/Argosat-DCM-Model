@@ -21,20 +21,30 @@ The Deep Chlorophyll Maximum (DCM) is a crucial feature in the ocean, representi
 
 ## Repository Structure
 
-**├── data/          # Contains raw and processed data (not included in the repo due to size)
-**│   ├── argo/      # Argo float data
-**│   └── satellite/ # Satellite data
-**├── notebooks/     # Jupyter notebooks for data processing, model training, and analysis
-**│   ├── data_preprocessing.ipynb
-**│   ├── feature_engineering.ipynb
-**│   ├── model_training.ipynb
-**│   └── model_evaluation.ipynb
-**├── scripts/       # Python scripts for specific tasks (optional)
-**│   └── download_data.py
-**├── outputs/       # Stores model outputs, figures, and other results
-**├── README.md      # This file
-**├── requirements.txt # List of required Python packages
-**└── environment.yml # Conda environment file (optional)
+├── data/          # Contains raw and processed data (not included in the repo due to size)
+│   ├── argo/      # Argo float data
+│   └── satellite/ # Satellite data
+├── notebooks/     # Jupyter notebooks for data processing, model training, and analysis
+│   ├── data_preprocessing.ipynb
+│   ├── feature_engineering.ipynb
+│   ├── model_training.ipynb
+│   └── model_evaluation.ipynb
+├── scripts/       # Python scripts for specific tasks (optional)
+│   └── download_data.py
+├── outputs/       # Stores model outputs, figures, and other results
+├── README.md      # This file
+├── requirements.txt # List of required Python packages
+└── environment.yml # Conda environment file (optional)
+
+**Description:**
+
+*   **`data/`:** This directory holds the raw and processed data.  The `argo/` subdirectory contains Argo float data, and the `satellite/` subdirectory contains satellite data.  *Note: Due to their size, these datasets are not included directly in the repository.  See the "Getting Started" section for instructions on how to download the data.*
+*   **`notebooks/`:** This directory contains Jupyter notebooks used for data processing (`data_preprocessing.ipynb`), feature engineering (`feature_engineering.ipynb`), model training (`model_training.ipynb`), and model evaluation (`model_evaluation.ipynb`).
+*   **`scripts/`:**  This directory contains any Python scripts used for specific tasks, such as downloading data (`download_data.py`). This directory is optional.
+*   **`outputs/`:** This directory stores the analysis results, including model outputs, figures, and other generated files.
+*   **`README.md`:** This file (the one you are reading) provides an overview of the project and instructions for getting started.
+*   **`requirements.txt`:** This file lists the required Python packages for the project.  You can install these using `pip install -r requirements.txt`.
+*   **`environment.yml`:** (Optional) This file specifies a Conda environment for the project. You can create the environment using `conda env create -f environment.yml`.
 
 
 ## Requirements
